@@ -4,6 +4,8 @@
  *
  * Return: Always 0 in success
  */
+int _putchar(int char);
+
 int main(void)
 {
 	_putchar(95); /*95 is asci for _*/
