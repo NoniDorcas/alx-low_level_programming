@@ -1,14 +1,6 @@
 #include "main.h"
 
-/**
- * _isdigit - function declaration
- * Description: test if digit
- * @c: variable to test
- * Return: 1 for true, 0 for false
- */
-
 int _isdigit(int c);
-
 /**
  * _isdigit - function definition
  * Description: test if c is a digit
