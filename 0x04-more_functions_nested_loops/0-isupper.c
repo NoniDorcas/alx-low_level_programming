@@ -10,10 +10,10 @@
 int _isupper(int c);
 
 /**
- * _isupper - function declaration
- * Function - tests case of c
+ * _isupper - function definition
+ * Description: tests case of c
  * @c: character to test
- * Return: 1 if upper 0 if lower
+ * Return: 1 if upper 0 if not upper
  */
 
 int _isupper(int c)
