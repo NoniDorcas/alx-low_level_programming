@@ -3,6 +3,7 @@
 /**
  * print_diagonal - draws a diagnal line on the terminal
  * @n - the number of characters that should be printed
+ * Return void
  */
 void print_diagonal(int n);
 {
