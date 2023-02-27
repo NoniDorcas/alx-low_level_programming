@@ -7,6 +7,14 @@
  * Return: void
  */
 
+void print_rev(char *s);
+
+/**
+ * print_rev - function definition
+ * @s: the string pointer
+ * Return: void
+ */
+
 void print_rev(char *s)
 {
 	int index;
