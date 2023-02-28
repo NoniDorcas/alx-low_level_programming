@@ -3,15 +3,12 @@
 /**
  * _puts - prints a string
  * @str: The string
- *
- * Return: 0
  */
-
-int main(void)
+void _puts(char *str)
 {
-	char *str;
+	while (*str)
+		_putchar(*str++);/*counts each allocated character memory*/
 
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	_puts(str);
-	return (0);
+	_putchar('\n');
 }
+
