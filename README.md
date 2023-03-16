@@ -1,1 +1,1 @@
-Use of malloc and free in memory allocation
+malloc and free, how they are used
