@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * array_iterator - executes a function as a parameter of each rlrmrnt of an array
+ * array_iterator - executes a function given
+ *                   as a parameter on each element
  * @array: array of integers
  * @size: size of array
  * @action: pointer to function
