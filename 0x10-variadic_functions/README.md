@@ -1,0 +1,2 @@
+- how to use stdarg.h types and macros
+-how to use the const qualifier
