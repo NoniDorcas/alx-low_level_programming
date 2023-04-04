@@ -2,7 +2,7 @@
 
 /**
  * listint_len - returns the number of nodes in a list
- * @h: singly linked list 
+ * @h: singly linked list
  * Return: number of elements in the list
  */
 
