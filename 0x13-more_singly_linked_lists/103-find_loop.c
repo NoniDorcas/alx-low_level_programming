@@ -4,7 +4,7 @@
  * find_listint_loop - Finds the loop in a linked list.
  * @head: Address to the head of the listint_t list.
  *
- * Return: NULL If there is no loop 
+ * Return: NULL If there is no loop
  *         Otherwise the address of the node where the loop starts.
  */
 
