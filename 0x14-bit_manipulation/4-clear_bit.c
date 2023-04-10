@@ -18,8 +18,8 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	{
 		return (-1);
 	}
-	set = 0 << index;
-	*n |= set;
+	set = 1 << index;
+	*n &= ~set;
 
 	return (1);
 }
