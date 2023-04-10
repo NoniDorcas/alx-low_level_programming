@@ -19,7 +19,7 @@ int set_bit(unsigned long int *n, unsigned int index)
 		return (-1);
 	}
 	set = 1 << index;
-	*n = set;
+	*n |= set;
 
 	return (1);
 }
