@@ -33,7 +33,8 @@ int create_file(const char *filename, char *text_content)
 	close(file_text);
 	return (1);
 	}
-	for (str = 0; text_content[str]; str++)
+	for (str = 0; text_content[str];)
+		str++;
 	wr = write(file_text, text_content, str);
 	if (wr == -1)
 	{
